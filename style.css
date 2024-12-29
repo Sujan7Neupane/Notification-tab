@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#notification-sec {
+  background-color: rgb(231, 255, 207);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noti-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  min-width: 30%;
+
+  position: relative;
+
+  box-shadow: 5px 5px 10px rgb(37, 166, 5);
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  margin-top: 1.5rem;
+}
+
+.notification-link {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.notification-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+
+.btn-wrapper .red {
+  border: 1px solid red;
+  background-color: transparent;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  color: red;
+
+  cursor: pointer;
+}
+
+.btn-wrapper .green {
+  border: 1px solid rgb(46, 157, 80);
+  background-color: transparent;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  color: rgb(46, 157, 80);
+  cursor: pointer;
+}
