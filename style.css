@@ -30,7 +30,7 @@ body {
 
   position: relative;
 
-  box-shadow: 5px 5px 10px rgb(37, 166, 5);
+  box-shadow: 5px 5px 10px rgb(52, 147, 81);
 }
 
 .closeBtn {
@@ -62,20 +62,20 @@ body {
 }
 
 .btn-wrapper .red {
-  border: 1px solid red;
+  border: 1px solid rgb(167, 0, 0);
   background-color: transparent;
   padding: 0.3rem 0.7rem;
   border-radius: 0.5rem;
-  color: red;
+  color: rgb(167, 0, 0);
 
   cursor: pointer;
 }
 
 .btn-wrapper .green {
-  border: 1px solid rgb(46, 157, 80);
+  border: 1px solid rgb(52, 147, 81);
   background-color: transparent;
   padding: 0.3rem 0.7rem;
   border-radius: 0.5rem;
-  color: rgb(46, 157, 80);
+  color: rgb(52, 147, 81);
   cursor: pointer;
 }
